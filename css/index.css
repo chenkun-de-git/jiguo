@@ -2,8 +2,134 @@
   width: 1000px;
   height: 75px;
   margin: 0 auto;
+  overflow: hidden;
 }
-.box img {
+.box .jg {
   height: 52px;
   width: 133px;
+  float: left;
+  margin-top: 10px;
+}
+.box .ul_ {
+  overflow: hidden;
+  margin-top: 30px;
+  float: left;
+}
+.box .ul_ li:nth-child(1) {
+  margin-left: 67px;
+}
+.box .ul_ li {
+  float: left;
+  margin-right: 50px;
+}
+.box .ul_ li > a {
+  font-size: 14px;
+  color: #000;
+}
+.box .rig {
+  float: right;
+  overflow: hidden;
+  margin-top: 25px;
+}
+.box .rig div {
+  float: left;
+}
+.box .rig .fdj {
+  width: 20px;
+  height: 20px;
+}
+.box .rig .ims {
+  margin-right: 10px;
+}
+.box .rig .bumit {
+  width: 35px;
+  height: 18px;
+  border: 1px solid red;
+  text-align: center;
+  line-height: 18px;
+  margin-right: 10px;
+}
+.box .rig .zc {
+  width: 35px;
+  height: 18px;
+  border: 1px solid red;
+  text-align: center;
+  line-height: 18px;
+}
+.box .rig .zc a {
+  color: red;
+}
+.bgim {
+  width: 100%;
+  height: 300px;
+  background: url(../bgimgs/original.jpg) no-repeat -266px;
+}
+.bgim .bor {
+  width: 1000px;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.bgim .bor .count {
+  overflow: hidden;
+  float: right;
+  margin-top: 45px;
+  animation: don 1s forwards ;
+}
+.bgim .bor .count .sound {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.bgim .bor .count .spa {
+  float: right;
+  overflow: hidden;
+}
+.bgim .bor .count .spa span {
+  float: left;
+  color: #fff;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  line-height: 25px;
+  margin-right: 15px;
+}
+.bgim .bor .count .spa .span1 {
+  width: 95px;
+  height: 25px;
+}
+.bgim .bor .count .spa .span2 {
+  width: 56px;
+  height: 25px;
+}
+.bgim .bor .count .spa .span3 {
+  width: 40px;
+  height: 25px;
+}
+.bgim .bor .count .sj {
+  margin-top: 55px;
+  margin-left: 35px;
+  font-size: 14px;
+  color: #fff;
+}
+.bgim .bor .count .but {
+  width: 220px;
+  height: 50px;
+  background-color: red;
+  font-size: 20px;
+  color: #fff;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  margin-left: 45px;
+}
+@keyframes don {
+  0% {
+    display: none;
+    transform: scale(0);
+  }
+  100% {
+    display: block;
+    transform: scale(1);
+  }
 }
